@@ -3,6 +3,7 @@ import pandas as pd
 import folium
 from streamlit_folium import st_folium
 
+# Edited to add earthquake map
 # Navigasi sidebar
 menu = st.sidebar.selectbox(
     "Pilih Halaman", ["Home", "Jabodetabek Earthquake Map", "About"])
