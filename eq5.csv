@@ -1,0 +1,88 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2019-08-02T12:03:27.001Z,-7.2822,104.7907,49,6.9,mww,,23,2.839,0.76,us,us60004zhq,2024-12-17T04:45:42.720Z,"152 km SW of Labuan, Indonesia",earthquake,7,1.9,0.043,51,reviewed,us,us
+2016-10-19T00:26:01.090Z,-4.8626,108.1627,614,6.6,mww,,16,2.022,1.21,us,us20007f7j,2022-05-03T18:02:02.240Z,"161 km NNE of Pamanukan, Indonesia",earthquake,6.6,1.9,,,reviewed,us,us
+2022-01-14T09:05:41.461Z,-6.86,105.2887,33,6.6,mww,,22,2.418,0.54,us,us7000gbu4,2025-01-05T02:11:45.617Z,"80 km SW of Labuan, Indonesia",earthquake,3.5,1.7,0.063,24,reviewed,us,us
+2017-12-15T16:47:58.230Z,-7.4921,108.1743,90,6.5,mww,,28,2.365,1.07,us,us2000c4v8,2025-05-01T02:07:22.109Z,"12 km SSW of Kawalu, Indonesia",earthquake,8,1.8,0.058,29,reviewed,us,us
+2016-04-06T14:45:29.620Z,-8.2036,107.3857,29,6.1,mww,,31,1.39,1.44,us,us20005fv5,2022-08-07T10:47:57.249Z,"111 km S of Banjar, Indonesia",earthquake,5.3,1.7,,,reviewed,us,us
+2024-04-27T16:29:50.643Z,-8.005,107.2798,59.701,6.1,mww,232,19,0.652,0.64,us,us6000muc0,2025-01-09T08:28:51.597Z,"91 km S of Banjar, Indonesia",earthquake,7.14,3.11,0.044,50,reviewed,us,us
+2018-01-23T06:34:54.980Z,-7.0924,105.9632,48.19,5.9,mww,,27,1.66,1.45,us,us2000cmwz,2023-03-17T02:39:23.698Z,"66 km W of Pelabuhanratu, Indonesia",earthquake,6,3.9,0.052,36,reviewed,us,us
+2022-12-08T00:50:55.572Z,-6.7109,107.1456,107,5.8,mww,214,17,3.289,0.79,us,us6000j7r0,2023-06-26T12:49:02.534Z,"17 km NW of Ciranjang-hilir, Indonesia",earthquake,7.64,1.888,0.052,35,reviewed,us,us
+2016-11-07T21:31:28.330Z,-8.11,104.8401,33,5.8,mww,,19,4.169,0.83,us,us10007659,2022-05-03T19:46:40.019Z,"220 km SSW of Labuan, Indonesia",earthquake,7.9,1.8,,,reviewed,us,us
+2017-06-11T23:15:06.150Z,-8.3206,106.259,7,5.7,mww,,46,2.004,1.46,us,us20009lwc,2022-05-03T18:59:43.679Z,"150 km SSW of Pelabuhanratu, Indonesia",earthquake,3.2,1.7,0.048,42,reviewed,us,us
+2016-05-02T04:21:24.710Z,-5.0262,104.6271,117,5.7,mww,,25,1.792,1.33,us,us10005cxc,2023-03-15T13:12:17.102Z,"35 km SW of Kotabumi, Indonesia",earthquake,7.2,1.8,,,reviewed,us,us
+2015-12-19T15:03:36.010Z,-8.3684,107.0225,27,5.7,mww,,87,2.496,1.4,us,us100048d4,2022-08-02T00:08:58.346Z,"137 km SSW of Banjar, Indonesia",earthquake,6.7,1.8,,,reviewed,us,us
+2025-04-22T10:14:06.764Z,-8.198,106.9763,63.413,5.6,mb,160,41,0.99,0.53,us,us7000pu5z,2025-05-15T14:13:25.637Z,"121 km SSW of Banjar, Indonesia",earthquake,8.15,5.912,0.044,184,reviewed,us,us
+2022-11-21T06:21:07.066Z,-6.836,106.9968,10,5.6,mww,154,40,0.899,0.37,us,us7000ir9t,2024-10-17T10:35:53.372Z,"11 km NE of Sukabumi, Indonesia",earthquake,5.06,1.803,0.063,24,reviewed,us,us
+2022-12-03T09:49:40.213Z,-7.2331,107.6139,120,5.6,mww,126,50,0.231,0.51,us,us6000j6k5,2023-02-11T23:03:03.040Z,"20 km ESE of Banjar, Indonesia",earthquake,8.36,1.857,0.089,12,reviewed,us,us
+2024-02-25T13:07:04.300Z,-7.3405,105.9282,34,5.6,mww,133,54,1.712,0.72,us,us7000m1h8,2024-05-02T15:50:14.040Z,"79 km WSW of Pelabuhanratu, Indonesia",earthquake,7.95,1.798,0.056,31,reviewed,us,us
+2015-07-24T21:44:38.920Z,-8.2477,108.9163,48,5.5,mwb,,17,1.625,1.33,us,us20002zzg,2022-07-31T20:30:34.274Z,"77 km SSW of Kroya, Indonesia",earthquake,5.6,1.2,0.06,27,reviewed,us,us
+2022-01-14T09:49:20.820Z,-7.0422,105.2063,34.46,5.4,mww,,23,2.4,0.5,us,us7000gbww,2022-03-19T22:08:01.040Z,"100 km SW of Labuan, Indonesia",earthquake,5.6,3.7,0.098,10,reviewed,us,us
+2019-06-09T09:32:25.075Z,-8.1979,108.9471,70.44,5.4,mww,,45,1.586,0.89,us,us70003xf0,2019-08-27T17:47:59.040Z,"70 km SSW of Kroya, Indonesia",earthquake,7.7,5.4,0.08,15,reviewed,us,us
+2015-11-28T14:47:18.970Z,-7.0548,105.9999,51.34,5.4,mww,,47,3.421,1.42,us,us100041wc,2022-08-01T20:48:26.393Z,"61 km W of Pelabuhanratu, Indonesia",earthquake,6.1,4.2,,,reviewed,us,us
+2023-02-07T00:35:51.557Z,-7.2442,106.0073,50.524,5.4,mb,161,53,4.174,0.55,us,us6000jm4c,2023-04-15T21:39:41.040Z,"66 km WSW of Pelabuhanratu, Indonesia",earthquake,7.91,2.626,0.044,179,reviewed,us,us
+2023-08-17T04:28:48.151Z,-7.4965,105.5471,54.787,5.4,mww,146,43,2.085,0.65,us,us7000knxb,2023-10-27T21:39:02.040Z,"124 km WSW of Pelabuhanratu, Indonesia",earthquake,7.35,5.401,0.078,16,reviewed,us,us
+2015-09-04T20:08:31.580Z,-8.043,107.2248,37,5.4,mww,,50,0.759,1.63,us,us20003ghh,2022-08-01T03:36:01.658Z,"96 km SSW of Banjar, Indonesia",earthquake,5.6,1.8,,,reviewed,us,us
+2020-10-25T00:56:45.775Z,-7.9934,107.9821,43,5.4,mww,,26,0.621,0.93,us,us6000cctq,2023-03-15T09:01:57.155Z,"72 km SSW of Kawalu, Indonesia",earthquake,6.9,1.8,0.073,18,reviewed,us,us
+2018-06-22T20:57:43.770Z,-4.9819,108.3788,640.05,5.3,mww,,19,1.981,1.26,us,us1000ez1q,2018-09-19T15:15:55.040Z,"148 km N of Indramayu, Indonesia",earthquake,8.8,4.4,0.086,13,reviewed,us,us
+2016-06-28T03:32:44.890Z,-5.992,105.3444,10,5.3,mb,,35,2.402,0.96,us,us200067ej,2016-08-31T03:08:20.040Z,"62 km S of Bandar Lampung, Indonesia",earthquake,6.8,1.7,0.054,116,reviewed,us,us
+2022-04-01T07:14:12.495Z,-7.2524,106.0683,18.52,5.3,mww,,34,1.582,0.94,us,us7000gywf,2022-06-04T20:42:33.040Z,"60 km WSW of Pelabuhanratu, Indonesia",earthquake,6.4,4.2,0.083,14,reviewed,us,us
+2022-03-12T05:31:11.226Z,-7.3172,106.0704,42.31,5.3,mww,,54,1.573,1.02,us,us6000h3ys,2022-05-27T14:55:19.040Z,"64 km SW of Pelabuhanratu, Indonesia",earthquake,6.6,6.6,0.075,17,reviewed,us,us
+2018-05-09T21:25:58.830Z,-6.3375,104.9107,46.85,5.3,mww,,23,2.765,1.03,us,us1000e1mn,2023-03-16T04:56:18.659Z,"101 km W of Labuan, Indonesia",earthquake,6.9,4.5,0.071,19,reviewed,us,us
+2022-03-16T03:00:03.847Z,-7.6341,107.0324,50.19,5.3,mww,,51,0.635,0.91,us,us6000h4xf,2023-03-16T11:10:49.614Z,"65 km SW of Banjar, Indonesia",earthquake,7,5.3,0.078,16,reviewed,us,us
+2023-10-01T04:00:24.335Z,-6.9332,106.7791,113.044,5.3,mb,113,33,1.012,0.94,us,us6000lc08,2023-12-14T21:26:50.040Z,"16 km W of Sukabumi, Indonesia",earthquake,7.34,4.938,0.044,171,reviewed,us,us
+2022-02-04T10:10:46.682Z,-7.2617,105.9667,44.85,5.2,mww,,31,1.681,0.47,us,us7000ghwb,2023-03-16T12:56:03.857Z,"71 km WSW of Pelabuhanratu, Indonesia",earthquake,5,4.1,0.093,11,reviewed,us,us
+2017-12-16T00:22:30.840Z,-7.8842,106.8195,44,5.2,mww,,27,1.316,0.99,us,us2000c551,2018-03-06T00:49:43.040Z,"101 km SW of Banjar, Indonesia",earthquake,6.3,1.8,0.075,17,reviewed,us,us
+2015-10-10T09:04:01.020Z,-8.0486,107.4009,35,5.2,mb,,35,2.969,1.13,us,us10003mnt,2022-08-01T10:23:36.024Z,"94 km S of Banjar, Indonesia",earthquake,7.4,1.9,0.057,100,reviewed,us,us
+2019-01-08T09:54:47.990Z,-7.8778,106.5655,35,5.2,mb,,46,1.476,1.11,us,us2000j1c6,2019-08-24T07:38:31.548Z,"98 km S of Pelabuhanratu, Indonesia",earthquake,3,1.9,0.053,117,reviewed,us,us
+2016-08-12T08:30:07.790Z,-6.5442,104.9177,56.45,5.2,mb,,54,2.919,1.2,us,us10006d92,2016-11-15T02:21:46.040Z,"102 km W of Labuan, Indonesia",earthquake,6.6,6.4,0.061,90,reviewed,us,us
+2021-05-23T03:50:49.612Z,-6.2692,105.525,15.95,5.2,mww,,31,2.147,1.07,us,us7000e5fj,2021-07-31T22:08:45.040Z,"35 km WNW of Labuan, Indonesia",earthquake,5.9,3.2,0.098,10,reviewed,us,us
+2021-08-06T11:08:17.950Z,-6.2037,104.6565,54.99,5.2,mww,,34,2.494,0.74,us,us6000f2r4,2023-03-16T11:14:46.831Z,"108 km SW of Bandar Lampung, Indonesia",earthquake,6.6,5.1,0.089,12,reviewed,us,us
+2022-11-12T13:18:47.398Z,-8.0496,107.418,55.403,5.2,mww,84,54,0.627,0.6,us,us7000ipau,2023-01-28T19:58:09.040Z,"94 km S of Banjar, Indonesia",earthquake,6.35,3.266,0.098,10,reviewed,us,us
+2020-11-04T22:21:49.702Z,-7.3061,106.1567,39.99,5.2,mb,,26,1.489,0.8,us,us7000cajk,2021-01-23T22:25:27.040Z,"56 km SW of Pelabuhanratu, Indonesia",earthquake,2.2,4.9,0.054,114,reviewed,us,us
+2017-04-23T18:01:13.310Z,-7.7404,108.0192,72.22,5.2,mb,,28,2.486,1.24,us,us10008k20,2023-04-29T22:43:17.804Z,"44 km SSW of Singaparna, Indonesia",earthquake,7.2,4.8,0.053,119,reviewed,us,us
+2017-07-08T22:48:31.650Z,-7.4094,105.9824,8.54,5.2,mb,,25,3.069,1.15,us,us1000989m,2022-05-03T18:33:11.842Z,"78 km SW of Pelabuhanratu, Indonesia",earthquake,5.8,3.3,0.048,143,reviewed,us,us
+2024-02-25T15:04:57.491Z,-7.3755,105.9647,45.156,5.2,mb,70,40,1.674,0.77,us,us7000m1i9,2024-05-02T15:50:14.040Z,"77 km WSW of Pelabuhanratu, Indonesia",earthquake,8.01,5.217,0.058,99,reviewed,us,us
+2021-11-10T02:50:07.762Z,-7.5917,105.8256,21.04,5.1,mb,,45,1.813,0.84,us,us7000fsv8,2022-08-06T19:48:32.675Z,"104 km SW of Pelabuhanratu, Indonesia",earthquake,2.3,4.2,0.062,83,reviewed,us,us
+2022-12-19T05:50:15.217Z,-5.3796,104.6469,109.811,5.1,mb,102,49,1.966,0.47,us,us6000ja8n,2023-02-28T23:06:29.040Z,"66 km SSW of Kotabumi, Indonesia",earthquake,8.43,5.926,0.061,89,reviewed,us,us
+2017-03-14T04:36:30.050Z,-5.6225,110.1835,545.67,5.1,mb,,34,1.44,0.93,us,us100088t6,2017-06-07T00:33:38.040Z,"111 km NNW of Batang, Indonesia",earthquake,8.4,4.6,0.048,142,reviewed,us,us
+2017-09-25T18:10:43.200Z,-5.9298,106.3876,150.05,5.1,mb,,35,3.446,1.15,us,us2000aufz,2017-12-22T21:56:22.040Z,"22 km N of Kresek, Indonesia",earthquake,8.3,5,0.067,73,reviewed,us,us
+2020-07-07T04:44:13.602Z,-6.3146,106.3418,96.85,5.1,mww,,24,1.361,1.03,us,us7000aja4,2020-09-11T22:14:24.040Z,"11 km ENE of Rangkasbitung, Indonesia",earthquake,7.1,4.1,0.083,14,reviewed,us,us
+2021-05-23T03:48:11.936Z,-6.3831,105.3483,10,5.1,mb,,48,2.293,1.13,us,us7000e5fh,2021-07-31T22:08:45.040Z,"53 km W of Labuan, Indonesia",earthquake,5.8,1.7,0.062,85,reviewed,us,us
+2017-02-19T15:14:07.500Z,-6.4023,104.6528,45.93,5.1,mb,,82,2.639,0.81,us,us20008ksv,2017-05-17T01:19:32.040Z,"126 km SSW of Bandar Lampung, Indonesia",earthquake,6.7,5.9,0.067,72,reviewed,us,us
+2023-05-10T04:24:47.542Z,-6.5679,104.7998,19.579,5.1,mww,73,43,2.86,0.68,us,us6000kasa,2023-07-22T19:16:34.040Z,"115 km W of Labuan, Indonesia",earthquake,6.97,3.545,0.093,11,reviewed,us,us
+2016-08-12T07:17:14.810Z,-6.5866,104.8479,44.17,5.1,mb,,51,2.757,1.37,us,us10006d82,2016-11-15T02:21:46.040Z,"111 km WSW of Labuan, Indonesia",earthquake,6.4,6.8,0.071,64,reviewed,us,us
+2015-11-04T06:14:32.820Z,-6.7492,105.0488,10,5.1,mb,,41,2.548,1.37,us,us200041us,2022-08-01T15:49:04.166Z,"95 km WSW of Labuan, Indonesia",earthquake,6.3,1.7,0.079,52,reviewed,us,us
+2018-10-29T21:11:17.140Z,-6.883,104.934,27.3,5.1,mb,,114,2.662,1.36,us,us1000hir2,2019-01-21T14:29:38.040Z,"113 km WSW of Labuan, Indonesia",earthquake,7.1,3.8,0.063,82,reviewed,us,us
+2025-02-14T12:28:33.614Z,-7.3712,105.5416,48.79,5.1,mb,117,68,1.62,0.9,us,us7000pdl8,2025-05-02T16:26:17.040Z,"114 km SSW of Labuan, Indonesia",earthquake,6.98,5.284,0.053,114,reviewed,us,us
+2019-07-28T14:25:02.625Z,-6.9777,106.1423,58.47,5.1,mb,,102,1.469,0.82,us,us60004wrw,2023-03-16T05:07:00.244Z,"45 km W of Pelabuhanratu, Indonesia",earthquake,7.9,3.1,0.065,77,reviewed,us,us
+2023-10-19T14:08:24.664Z,-7.8723,107.2582,58.526,5.1,mww,73,45,0.563,1.12,us,us6000lglx,2023-12-26T21:24:38.040Z,"77 km SSW of Banjar, Indonesia",earthquake,8.72,4.929,0.08,15,reviewed,us,us
+2019-06-29T06:47:04.303Z,-8.1929,108.9633,78.89,5.1,mb,,122,1.569,0.84,us,us7000477c,2019-09-14T16:08:18.040Z,"69 km SSW of Kroya, Indonesia",earthquake,8.2,7,0.083,47,reviewed,us,us
+2023-12-27T22:43:56.800Z,-7.7769,107.9533,72.197,5.1,mww,163,26,0.434,0.5,us,us6000m02j,2024-03-02T21:39:32.040Z,"50 km SSW of Singaparna, Indonesia",earthquake,7.86,4.317,0.093,11,reviewed,us,us
+2017-08-03T16:14:23.470Z,-8.1608,108.9879,63.18,5,mww,,27,1.54,1.18,us,us2000a467,2022-08-07T13:47:36.347Z,"64 km SSW of Kroya, Indonesia",earthquake,6.7,3.3,0.089,12,reviewed,us,us
+2022-09-17T06:24:59.047Z,-7.16,105.1422,24.613,5,mb,39,119,2.506,0.9,us,us7000i8rv,2024-01-18T16:51:24.645Z,"115 km SW of Labuan, Indonesia",earthquake,6.22,5.189,0.113,25,reviewed,us,us
+2020-05-03T07:06:45.122Z,-6.2306,104.6938,48.5,5,mww,,57,2.539,0.88,us,us7000997z,2023-03-15T12:12:53.204Z,"108 km SW of Bandar Lampung, Indonesia",earthquake,6,4.1,0.098,10,reviewed,us,us
+2024-08-14T17:55:39.603Z,-7.6359,106.0795,19.222,5,mww,126,55,1.566,0.56,us,us6000nk4l,2024-10-26T15:47:57.040Z,"88 km SW of Pelabuhanratu, Indonesia",earthquake,6.76,3.195,0.11,8,reviewed,us,us
+2017-09-02T03:32:22.220Z,-6.0389,104.9644,75.14,5,mb,,34,2.604,1.18,us,us2000ae1c,2022-08-07T16:15:30.420Z,"75 km SSW of Bandar Lampung, Indonesia",earthquake,7.5,4.3,0.06,91,reviewed,us,us
+2022-03-30T07:44:38.251Z,-6.0266,104.4366,44.61,5,mww,,39,2.216,1.01,us,us7000gyc2,2023-03-15T07:42:33.312Z,"112 km SW of Bandar Lampung, Indonesia",earthquake,7,4.7,0.098,10,reviewed,us,us
+2017-04-24T21:29:00.490Z,-6.0171,105.3705,50.16,5,mb,,37,2.914,0.88,us,us10008kca,2017-07-21T02:32:04.040Z,"64 km NW of Labuan, Indonesia",earthquake,4.5,5.7,0.061,85,reviewed,us,us
+2022-01-17T00:25:57.521Z,-7.5134,105.8582,35,5,mww,,52,1.777,1.15,us,us7000gcjn,2022-04-01T17:40:14.040Z,"96 km SW of Pelabuhanratu, Indonesia",earthquake,5.9,1.9,0.098,10,reviewed,us,us
+2023-09-13T05:34:33.417Z,-5.754,110.1746,650.655,5,mb,131,17,1.314,0.83,us,us7000kvfm,2023-11-18T22:29:33.040Z,"100 km NW of Batang, Indonesia",earthquake,7.34,5.56,0.042,179,reviewed,us,us
+2024-09-18T02:41:06.723Z,-7.2418,107.5662,10,5,mww,90,33,0.235,0.79,us,us6000nsu0,2024-11-23T23:25:49.040Z,"15 km ESE of Banjar, Indonesia",earthquake,5.43,1.752,0.11,8,reviewed,us,us
+2022-11-19T18:28:30.196Z,-7.7701,107.9887,69.988,5,mww,179,36,0.454,0.67,us,us7000ir0i,2023-01-30T06:00:13.040Z,"48 km SSW of Singaparna, Indonesia",earthquake,5.84,3.671,0.098,10,reviewed,us,us
+2017-02-15T18:53:38.570Z,-7.5161,107.3878,77.33,5,mb,,40,3.063,1.21,us,us20008k1a,2017-05-13T01:03:21.040Z,"35 km S of Banjar, Indonesia",earthquake,8.5,4.6,0.057,99,reviewed,us,us
+2017-02-08T08:34:18.360Z,-7.5557,106.9498,74.88,5,mb,,64,0.982,1.32,us,us20008iff,2017-05-09T01:24:30.040Z,"66 km SW of Banjar, Indonesia",earthquake,6.9,5.3,0.071,63,reviewed,us,us
+2024-09-06T19:02:01.444Z,-8.1642,106.829,10.274,5,mb,99,67,1.071,1.11,us,us6000nq5j,2024-11-15T16:20:00.040Z,"126 km SSW of Banjar, Indonesia",earthquake,6.41,3.488,0.061,88,reviewed,us,us
+2021-04-11T10:44:46.491Z,-6.2729,104.5961,70.82,5,mb,,81,2.505,0.93,us,us6000e0su,2021-06-19T21:25:04.040Z,"118 km SW of Bandar Lampung, Indonesia",earthquake,8.6,7.6,0.086,43,reviewed,us,us
+2016-09-11T15:35:05.860Z,-6.3091,105.2056,10,5,mb,,42,2.447,1.2,us,us10006nv5,2016-12-07T02:56:11.040Z,"69 km W of Labuan, Indonesia",earthquake,6.4,1.8,0.073,60,reviewed,us,us
+2021-04-27T09:23:39.234Z,-7.4516,106.9425,56.93,5,mb,,35,0.701,0.62,us,us7000dxtl,2023-03-16T08:08:16.619Z,"59 km S of Sukabumi, Indonesia",earthquake,7.9,5,0.053,120,reviewed,us,us
+2017-12-12T02:23:10.090Z,-7.1269,107.0917,100.75,5,mb,,89,3.324,0.92,us,us2000c35s,2018-03-06T00:49:37.040Z,"29 km SE of Sukabumi, Indonesia",earthquake,7.9,2.1,0.1,32,reviewed,us,us
+2024-12-20T18:22:39.340Z,-6.4479,105.0901,54.956,5,mww,145,41,2.734,0.93,us,us7000p0fh,2025-02-27T17:30:53.040Z,"82 km W of Labuan, Indonesia",earthquake,7.33,4.696,0.103,9,reviewed,us,us
+2017-11-08T19:17:06.960Z,-6.5071,104.6146,35,5,mww,,58,2.697,1.04,us,us2000bkg8,2022-05-03T18:39:52.004Z,"135 km W of Labuan, Indonesia",earthquake,8.2,1.9,0.075,17,reviewed,us,us
+2018-03-19T11:36:27.050Z,-7.41,105.9404,48.55,5,mww,,58,3.064,1.2,us,us1000d6de,2022-05-03T18:49:53.730Z,"82 km SW of Pelabuhanratu, Indonesia",earthquake,7.1,5.2,0.089,12,reviewed,us,us
+2019-05-12T08:51:41.504Z,-6.5488,104.6291,35,5,mb,,78,2.738,1.04,us,us70003k07,2019-08-01T17:15:13.040Z,"134 km W of Labuan, Indonesia",earthquake,6.9,2,0.064,78,reviewed,us,us
+2021-04-14T06:28:42.018Z,-7.0761,106.0265,45.72,5,mb,,65,1.655,0.65,us,us6000e1f0,2022-01-17T04:08:19.635Z,"58 km W of Pelabuhanratu, Indonesia",earthquake,8.3,5.5,0.076,56,reviewed,us,us
+2024-08-14T09:15:07.892Z,-6.5957,104.3954,39.785,5,mb,66,78,2.643,0.7,us,us6000nk1m,2025-01-05T02:10:32.462Z,"160 km W of Labuan, Indonesia",earthquake,8.11,7.027,0.077,54,reviewed,us,us
+2020-08-25T23:27:58.019Z,-6.6509,104.6542,35,5,mww,,44,2.834,0.96,us,us7000bd0c,2020-10-31T19:06:29.040Z,"133 km WSW of Labuan, Indonesia",earthquake,7,1.9,0.075,17,reviewed,us,us
+2019-02-13T23:41:54.620Z,-6.7647,105.803,66.89,5,mb,,40,1.799,1.08,us,usd0009e9l,2019-05-01T22:01:16.040Z,"42 km S of Labuan, Indonesia",earthquake,7,5.2,0.061,86,reviewed,us,us
+2020-03-10T10:18:04.505Z,-6.7852,106.6813,10,5,mb,,86,1.173,1.15,us,us60008d3j,2023-03-15T12:00:27.953Z,"11 km W of Cicurug, Indonesia",earthquake,6.5,1.8,0.076,56,reviewed,us,us
+2024-09-15T09:54:33.875Z,-7.3767,106.6662,51.169,5,mww,79,56,0.979,0.9,us,us7000ne03,2024-11-21T22:58:58.040Z,"44 km SSE of Pelabuhanratu, Indonesia",earthquake,7.69,6.092,0.093,11,reviewed,us,us
