@@ -14,7 +14,7 @@ if menu == "Home":
     st.write("Ini adalah halaman utama aplikasi Streamlit Asri-f.")
 
 # Halaman Peta Gempa
-elif menu == "Peta Gempa":
+elif menu == "Jabodetabek Earthquake Map":
     st.title("Peta Sebaran Gempa")
     st.write("Visualisasi lokasi gempa berdasarkan data dari USGS.")
 
