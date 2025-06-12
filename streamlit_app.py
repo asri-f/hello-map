@@ -11,7 +11,10 @@ menu = st.sidebar.selectbox(
 # Konten halaman
 if menu == "Home":
     st.title("Welcome to My Mini Project")
-    st.write("Ini adalah halaman utama aplikasi Streamlit Asri-f.")
+    st.write("This is the main page of the Streamlit app created by Asri-f.")
+    st.markdown(
+        "Use the sidebar to navigate between the earthquake map and app information."
+    )
 
 # Halaman Peta Gempa
 elif menu == "Earthquake Map":
@@ -20,32 +23,43 @@ elif menu == "Earthquake Map":
              "in the DKI Jakarta area, West Java, and surrounding regions, "
              "with magnitudes greater than 5.")
 
-    # Load data CSV
-    df = pd.read_csv("eq_singkat.csv")
+    try:
+        df = pd.read_csv("eq_singkat.csv")
+        st.markdown("**Sample Data:**")
+        st.dataframe(df.head())
 
-    # Cek isi data
-    st.write("Example data:", df.head())
+        # Initialize the map
+        m = folium.Map(location=[-6.2, 106.8], zoom_start=8)
 
-    # Inisialisasi peta (posisi awal di sekitar Jakarta)
-    m = folium.Map(location=[-6.2, 106.8], zoom_start=8)
+        # Add markers
+        for _, row in df.iterrows():
+            folium.CircleMarker(
+                location=[row['latitude'], row['longitude']],
+                radius=row['mag'] * 2,
+                color='red' if row['mag'] >= 5 else 'orange',
+                fill=True,
+                fill_opacity=0.6,
+                popup=folium.Popup(
+                    f"<b>Magnitude:</b> {row['mag']}<br><b>Depth:</b> {row['depth']} km<br><b>Location:</b> {row['place']}",
+                    max_width=300),
+                tooltip=f"{row['place']} (M {row['mag']})"
+            ).add_to(m)
 
-    # Tambahkan marker untuk tiap gempa
-    for _, row in df.iterrows():
-        folium.CircleMarker(
-            location=[row['latitude'], row['longitude']],
-            radius=row['mag'] * 2,  # Magnitudo sebagai ukuran
-            color='red' if row['mag'] >= 5 else 'orange',
-            fill=True,
-            fill_opacity=0.6,
-            popup=folium.Popup(
-                f"Mag: {row['mag']}<br>Depth: {row['depth']} km<br>{row['place']}", max_width=300)
-        ).add_to(m)
+        # Display map
+        st_folium(m, width=700, height=500)
 
-    # Tampilkan di Streamlit
-    st_folium(m, width=700, height=500)
+    except FileNotFoundError:
+        st.error(
+            "Data file 'eq_singkat.csv' not found. Please make sure it's in the correct directory.")
 
-
+# About page
 elif menu == "About":
     st.title("About This App")
-    st.write("This mini project app was created to display an interactive map related to environment and disaster topics. "
-             "Please feel free to share!")
+    st.write(
+        "This mini project app was created to display an interactive map related to environmental and disaster topics. "
+        "It visualizes earthquake data sourced from USGS focused on the Jakarta region and surroundings."
+    )
+    st.markdown(
+        "**Feel free to share or contact me if you're interested!**\n\n"
+        "Created by Asri-f."
+    )
