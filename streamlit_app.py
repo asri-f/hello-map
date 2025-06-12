@@ -33,16 +33,25 @@ elif menu == "Earthquake Map":
 
         # Add markers
         for _, row in df.iterrows():
+            # Tentukan warna berdasarkan magnitudo
+            mag = float(row['mag'])
+            if 5.0 <= mag < 5.5:
+                color = 'yellow'
+            elif 5.5 <= mag < 6.0:
+                color = 'orange'
+            else:  # mag >= 6.0
+                color = 'red'
+
             folium.CircleMarker(
                 location=[row['latitude'], row['longitude']],
-                radius=row['mag'] * 2,
-                color='red' if row['mag'] >= 5 else 'orange',
+                radius=mag * 2,
+                color=color,
                 fill=True,
                 fill_opacity=0.6,
                 popup=folium.Popup(
-                    f"<b>Magnitude:</b> {row['mag']}<br><b>Depth:</b> {row['depth']} km<br><b>Location:</b> {row['place']}",
+                    f"<b>Magnitude:</b> {mag}<br><b>Depth:</b> {row['depth']} km<br><b>Location:</b> {row['place']}",
                     max_width=300),
-                tooltip=f"{row['place']} (M {row['mag']})"
+                tooltip=f"{row['place']} (M {mag})"
             ).add_to(m)
 
         # Display map
