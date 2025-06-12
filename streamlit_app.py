@@ -49,7 +49,7 @@ elif menu == "Earthquake Map":
                 fill=True,
                 fill_opacity=0.6,
                 popup=folium.Popup(
-                    f"<b>Magnitude:</b> {mag}<br><b>Depth:</b> {row['depth']} km<br><b>Location:</b> {row['place']}",
+                    f"<b>Magnitude:</b> {mag}<br><b>Depth:</b> {row['depth']} km<br><b>Location:</b> {row['place']}<br><b>Time:</b> {row['time']}",
                     max_width=300),
                 tooltip=f"{row['place']} (M {mag})"
             ).add_to(m)
