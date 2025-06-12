@@ -24,10 +24,10 @@ elif menu == "Earthquake Map":
     df = pd.read_csv("eq_singkat.csv")
 
     # Cek isi data
-    st.write("Contoh data:", df.head())
+    st.write("Example data:", df.head())
 
     # Inisialisasi peta (posisi awal di sekitar Jakarta)
-    m = folium.Map(location=[-6.2, 106.8], zoom_start=6)
+    m = folium.Map(location=[-6.2, 106.8], zoom_start=8)
 
     # Tambahkan marker untuk tiap gempa
     for _, row in df.iterrows():
@@ -46,5 +46,6 @@ elif menu == "Earthquake Map":
 
 
 elif menu == "About":
-    st.title("Tentang Aplikasi")
-    st.write("Aplikasi ini dibuat untuk menampilkan peta interaktif dan info lainnya.")
+    st.title("About This App")
+    st.write("This mini project app was created to display an interactive map related to environment and disaster topics. "
+             "Please feel free to share!")
