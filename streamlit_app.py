@@ -25,7 +25,7 @@ elif menu == "Earthquake Map":
 
     try:
         df = pd.read_csv("eq_singkat.csv")
-        st.markdown("**Sample Data:**")
+        st.markdown("**Example Data:**")
         st.dataframe(df.head())
 
         # Initialize the map
