@@ -34,7 +34,7 @@ elif menu == "Earthquake Map":
         # Add markers
         for _, row in df.iterrows():
             # Tentukan warna berdasarkan magnitudo
-            mag = float(row['mag'])
+            mag = row['mag']
             if 5.0 <= mag < 5.5:
                 color = 'yellow'
             elif 5.5 <= mag < 6.0:
