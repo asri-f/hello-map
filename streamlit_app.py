@@ -6,7 +6,7 @@ from streamlit_folium import st_folium
 # Edited to add earthquake map
 # Navigasi sidebar
 menu = st.sidebar.selectbox(
-    "Pilih Halaman", ["Home", "Jabodetabek Earthquake Map", "About"])
+    "Pilih Halaman", ["Home", "Earthquake Map", "About"])
 
 # Konten halaman
 if menu == "Home":
@@ -14,9 +14,11 @@ if menu == "Home":
     st.write("Ini adalah halaman utama aplikasi Streamlit Asri-f.")
 
 # Halaman Peta Gempa
-elif menu == "Jabodetabek Earthquake Map":
-    st.title("Peta Sebaran Gempa")
-    st.write("Visualisasi lokasi gempa berdasarkan data dari USGS.")
+elif menu == "Earthquake Map":
+    st.title("Earthquake Distribution Map")
+    st.write("Visualization of earthquake locations based on USGS data from the past 10 years "
+             "in the DKI Jakarta area, West Java, and surrounding regions, "
+             "with magnitudes greater than 5.")
 
     # Load data CSV
     df = pd.read_csv("eq_singkat.csv")
