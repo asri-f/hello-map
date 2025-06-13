@@ -65,8 +65,7 @@ elif menu == "Earthquake Map":
 elif menu == "Mangrove Density Map":
     st.title("Spatial Distribution of Mangrove Density in Tanjung Pinang and Bintan")
     st.write("This map displays the density of mangrove vegetation in Bintan and "
-             "Tanjung Pinang, derived from the classification of 2013 Landsat imagery. "
-             "The classification was conducted by the Indonesian Geospatial Information Agency (BIG).")
+             "Tanjung Pinang, derived from the classification of 2013 Landsat imagery.")
 
     try:
         import geopandas as gpd
