@@ -6,14 +6,14 @@ from streamlit_folium import st_folium
 # Edited to add earthquake map
 # Navigasi sidebar
 menu = st.sidebar.selectbox(
-    "Pilih Halaman", ["Home", "Earthquake Map", "About"])
+    "Pilih Halaman", ["Home", "Earthquake Map", "Mangrove Density Map", "About"])
 
 # Konten halaman
 if menu == "Home":
     st.title("Welcome to My Mini Project")
-    st.write("This is the main page of the Streamlit app created by Asri-f.")
+    st.write("This page of the Streamlit app created by Asri F.")
     st.markdown(
-        "Use the sidebar to navigate between the earthquake map and app information."
+        "Use the sidebar to navigate app information."
     )
 
 # Halaman Peta Gempa
@@ -60,6 +60,55 @@ elif menu == "Earthquake Map":
     except FileNotFoundError:
         st.error(
             "Data file 'eq_singkat.csv' not found. Please make sure it's in the correct directory.")
+
+# Mangrove Density Map
+elif menu == "Mangrove Density Map":
+    st.title("Spatial Distribution of Mangrove Density in Tanjung Pinang and Bintan")
+    st.write("This map displays the density of mangrove vegetation in Bintan and "
+             "Tanjung Pinang, derived from the classification of 2013 Landsat imagery. "
+             "The classification was conducted by the Indonesian Geospatial Information Agency (BIG).")
+
+    try:
+        import geopandas as gpd
+
+        # Load shapefile mangrove
+        # sesuaikan path jika beda
+        gdf = gpd.read_file("data/BintanTjPngMangrove.shp")
+        gdf = gdf.to_crs(epsg=4326)  # pastikan pakai lat/lon
+
+        # Peta dasar
+        m = folium.Map(location=[gdf.geometry.centroid.y.mean(), gdf.geometry.centroid.x.mean()],
+                       zoom_start=11)
+
+        # Warna berdasarkan klasifikasi KRTJ
+        color_dict = {
+            'mangrove lebat': 'green',
+            'mangrove sedang': 'yellow',
+            'mangrove jarang': 'red'
+        }
+
+        def style_function(feature):
+            klasifikasi = feature['properties']['KRTJ'].lower()
+            return {
+                'fillColor': color_dict.get(klasifikasi, 'gray'),
+                'color': 'black',
+                'weight': 1,
+                'fillOpacity': 0.6
+            }
+
+        folium.GeoJson(
+            gdf,
+            style_function=style_function,
+            tooltip=folium.GeoJsonTooltip(fields=["KRTJ", "SHAPE_Area"], aliases=[
+                                          "Density: ", "Area (ha): "])
+        ).add_to(m)
+
+        # Tampilkan di Streamlit
+        st_folium(m, width=700, height=500)
+
+    except Exception as e:
+        st.error(f"Terjadi kesalahan saat memuat shapefile: {e}")
+
 
 # About page
 elif menu == "About":
