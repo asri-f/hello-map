@@ -77,7 +77,7 @@ elif menu == "Mangrove Density Map":
 
         # Peta dasar
         m = folium.Map(location=[gdf.geometry.centroid.y.mean(), gdf.geometry.centroid.x.mean()],
-                       zoom_start=13)
+                       zoom_start=12)
 
         # Warna berdasarkan klasifikasi KRTJ
         color_dict = {
