@@ -6,7 +6,7 @@ from streamlit_folium import st_folium
 # Edited to add earthquake map
 # Navigasi sidebar
 menu = st.sidebar.selectbox(
-    "Pilih Halaman", ["Home", "Earthquake Map", "Mangrove Density Map", "About"])
+    "Choose", ["Home", "Earthquake Map", "Mangrove Density Map", "About"])
 
 # Konten halaman
 if menu == "Home":
