@@ -3,7 +3,7 @@ from pages import home, earthquake, mangrove, about
 
 # Sidebar untuk navigasi
 menu = st.sidebar.selectbox(
-    "Index",
+    "Choose Page",
     ["Home", "Earthquake Map", "Mangrove Density Map", "About"]
 )
 
