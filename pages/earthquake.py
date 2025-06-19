@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import folium
+import os
 from streamlit_folium import st_folium
 
 
@@ -11,6 +12,10 @@ def app():
              "with magnitudes greater than 5.")
 
     try:
+        st.write("📁 Files in current directory:", os.listdir("."))
+        # baris debug penting
+        st.write("📁 Files in data/:", os.listdir("data"))
+
         df = pd.read_csv("data/eq_singkat.csv")  # Pastikan path benar
         st.markdown("**Example Data:**")
         st.dataframe(df.head())
