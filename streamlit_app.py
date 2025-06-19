@@ -28,6 +28,15 @@ elif menu == "Earthquake Map":
         st.markdown("**Example Data:**")
         st.dataframe(df.head())
 
+        # Tambahkan tombol download CSV
+        csv = df.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label="📥 Download Data CSV",
+            data=csv,
+            file_name='earthquake_data.csv',
+            mime='text/csv'
+        )
+
         # Initialize the map
         m = folium.Map(location=[-6.2, 106.8], zoom_start=8)
 
