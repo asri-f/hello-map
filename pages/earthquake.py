@@ -24,15 +24,6 @@ def app():
             mime='text/csv'
         )
 
-        # Tombol download CSV
-        csv = df.to_csv(index=False).encode('utf-8')
-        st.download_button(
-            label="📥 Download Data CSV",
-            data=csv,
-            file_name='earthquake_data.csv',
-            mime='text/csv'
-        )
-
         # Peta
         m = folium.Map(location=[-6.2, 106.8], zoom_start=8)
 
