@@ -11,7 +11,7 @@ def app():
              "with magnitudes greater than 5.")
 
     try:
-        df = pd.read_csv("data/eq_singkat.csv")  # Pastikan path benar
+        df = pd.read_csv("gambut-app/eq_singkat.csv")  # Pastikan path benar
         st.markdown("**Example Data:**")
         st.dataframe(df.head())
 
